@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "382323198376",
+    "firebase_url": "https://perizinan-9217c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "perizinan-9217c",
+    "storage_bucket": "perizinan-9217c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382323198376:android:46d3a06c4f6b3615bff59d",
+        "android_client_info": {
+          "package_name": "com.example.ruangan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382323198376-ru0hunmr4cukj3e1k3cqn0hjjovlu377.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrhM0meJAQCmnOrCxszXBqIcFwaWDMFg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382323198376-ru0hunmr4cukj3e1k3cqn0hjjovlu377.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

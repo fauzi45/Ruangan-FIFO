@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PemohonOrderActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formulir Pengajuan Permohonan Ruangan"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/orderPhone"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Nomor Telepon"
+                android:padding="10dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/orderDesc"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Keterangan Acara"
+                android:padding="10dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/orderDate"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Tanggal Acara"
+                android:padding="10dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/orderStartTime"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Jam Mulai"
+                android:padding="10dp"
+                android:textColor="@color/lavender" />
+
+            <EditText
+                android:id="@+id/orderFinishTime"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:gravity="start|center_vertical"
+                android:hint="Jam Selesai"
+                android:padding="10dp"
+                android:textColor="@color/lavender" />
+
+            <Button
+                android:id="@+id/btnOrder"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="@color/lavender"
+                android:text="Ajukan"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</ScrollView>

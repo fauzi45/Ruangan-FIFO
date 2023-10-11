@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="2dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardBackgroundColor="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/orderAdminTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order: 12345"
+            android:textColor="@color/black"
+            android:layout_marginLeft="18dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dateAdminTv"
+            android:layout_toStartOf="@id/nextAdminIv"
+            android:text="22/06/2023"/>
+        <TextView
+            android:id="@+id/noUrut"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_below="@id/orderAdminTv"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/NameAdminTv"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/noUrut"
+            android:layout_below="@id/orderAdminTv"
+            android:text="Ruangan blabla"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/showAdminDesc"
+            android:maxLines="0"
+            android:layout_below="@id/orderAdminTv"
+            android:text="Ruangan blabla"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/showIdAdminRuangan"
+            android:maxLines="0"
+            android:layout_below="@id/orderAdminTv"
+            android:text="Ruangan blabla"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/showPhoneAdmin"
+            android:maxLines="0"
+            android:layout_below="@id/orderAdminTv"
+            android:text="Ruangan blabla"/>
+        <TextView
+            android:layout_marginLeft="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeStartTvAdmin"
+            android:layout_below="@id/NameAdminTv"
+            android:text="00:00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/and"
+            android:layout_below="@id/NameAdminTv"
+            android:layout_toRightOf="@id/timeStartTvAdmin"
+
+            android:layout_marginRight="10dp"
+
+            android:layout_marginLeft="10dp"
+            android:text="-"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeEndTvAdmin"
+            android:layout_below="@id/NameAdminTv"
+            android:layout_toRightOf="@id/and"
+            android:text="00:00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/statusTVAdmin"
+            android:layout_below="@id/NameAdminTv"
+            android:layout_marginTop="5dp"
+            android:layout_toStartOf="@id/nextAdminIv"
+            android:text="Menunggu Persetujuan"
+            android:textColor="@color/greem"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nextAdminIv"
+            android:src="@drawable/ic_baseline_navigate_next_24"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
